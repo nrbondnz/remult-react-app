@@ -1,0 +1,187 @@
+{
+  "root": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Nigel Bond",
+        "email": "nigel.bond@orcon.net.nz",
+        "number": "0275560007",
+        "idLocation": 0
+      },
+      {
+        "id": 2,
+        "name": "Ahmed Ali",
+        "email": "ahmedali012@gmail.com",
+        "number": "09022222222",
+        "idLocation": 0
+      },
+      {
+        "id": 3,
+        "name": "James Williams",
+        "email": "jameswilly@gmail.com",
+        "number": "08111111111",
+        "idLocation": 1
+      },
+      {
+        "id": 4,
+        "name": "Grace Funsho",
+        "email": "gracefunsho@gmail.com",
+        "number": "09033333333",
+        "idLocation": 0
+      }
+    ],
+    "userExercises": [
+      {
+        "idUser": 1,
+        "idExercise": 1
+      },
+      {
+        "idUser": 2,
+        "idExercise": 2
+      },
+      {
+        "idUser": 1,
+        "idExercise": 3
+      }
+    ],
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Chest Press",
+        "idMachine": 21,
+        "description": "Upright chest press"
+      },
+      {
+        "id": 2,
+        "name": "Delts",
+        "idMachine": 2,
+        "description": "Pull arms back"
+      },
+      {
+        "id": 3,
+        "name": "Bench Press two",
+        "idMachine": 21,
+        "description": "Bench press description"
+      }
+    ],
+    "machines": [
+      {
+        "id": 2,
+        "name": "Pec/delt machine",
+        "numOfMachine": 2,
+        "idLocation": 1,
+        "settings": {
+          "hands": 4,
+          "seat": 2,
+          "back": 1
+        }
+      },
+      {
+        "id": 21,
+        "name": "bench press machine",
+        "idLocation": 1,
+        "numOfMachine": 21,
+        "settings": {
+          "hands": 4,
+          "seat": 3,
+          "back": 5
+        }
+      }
+    ],
+    "locations": [
+      {
+        "id": 1,
+        "name": "Whangaraoa"
+      },
+      {
+        "id": 2,
+        "name": "Silverdale"
+      }
+    ],
+    "workouts": [
+      {
+        "id": 1,
+        "idUser": 1,
+        "name": "Chest and Shoulders and triceps"
+      },
+      {
+        "id": 2,
+        "idUser": 2,
+        "name": "Back and biceps"
+      },
+      {
+        "id": 3,
+        "idUser": 1,
+        "name": "Legs and calves"
+      }
+    ],
+    "userWorkoutExercises": [
+      {
+        "id": 1,
+        "idUser": 1,
+        "name": "one not set",
+        "idWorkout": 1,
+        "idExercise": 2,
+        "settings": {
+          "hands": 4,
+          "seat": 3,
+          "other": 4
+        },
+        "max": "40kg"
+      },
+      {
+        "id": 2,
+        "idUser": 1,
+        "name": "two not set",
+        "idWorkout": 1,
+        "idExercise": 3,
+        "settings": {
+          "hands": 1,
+          "seat": 2,
+          "other": 3
+        },
+        "max": "50kg"
+      },
+      {
+        "id": 3,
+        "idUser": 1,
+        "name": "three not set",
+        "idWorkout": 2,
+        "idExercise": 2,
+        "settings": {
+          "hands": 1,
+          "seat": 2,
+          "other": 3
+        },
+        "max": "30kg"
+      }
+    ],
+    "muscles": [
+      {
+        "id": 1,
+        "name": "Pectorials",
+        "description": "This is the pecs description",
+        "parent": null
+      },
+      {
+        "id": 2,
+        "name": "Latisimus dorsi",
+        "description": "This is the lats description",
+        "parent": null
+      },
+      {
+        "id": 3,
+        "name": "Biceps",
+        "description": "This is the bicep description",
+        "parent": null
+      },
+      {
+        "id": 4,
+        "name": "Tricep",
+        "description": "This is the tricep description",
+        "parent": null
+      }
+    ],
+    "loaded": "LOADED"
+  }
+}
