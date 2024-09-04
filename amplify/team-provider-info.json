@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-remultreactapp-dev-3366f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-3366f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-3366f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-remultreactapp-dev-3366f-deployment",
+      "UnauthRoleName": "amplify-remultreactapp-dev-3366f-unauthRole",
+      "StackName": "amplify-remultreactapp-dev-3366f",
+      "StackId": "arn:aws:cloudformation:us-east-1:905407435387:stack/amplify-remultreactapp-dev-3366f/a1bc46f0-6aaa-11ef-9c5e-12a5590f8bab",
+      "AmplifyAppId": "d1s4opywbwmia2"
+    },
+    "categories": {
+      "function": {
+        "remultreactapp05d5b60b": {
+          "deploymentBucketName": "amplify-remultreactapp-dev-3366f-deployment",
+          "s3Key": "amplify-builds/remultreactapp05d5b60b-7a65734e547272784276-build.zip"
+        }
+      },
+      "api": {
+        "apptestresource": {}
+      }
+    }
+  }
+}
