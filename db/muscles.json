@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Pectorials",
+    "description": "This is the pecs description",
+    "parent": null
+  },
+  {
+    "id": 2,
+    "name": "Latisimus dorsi",
+    "description": "This is the lats description",
+    "parent": null
+  },
+  {
+    "id": 3,
+    "name": "Biceps",
+    "description": "This is the bicep description",
+    "parent": null
+  },
+  {
+    "id": 4,
+    "name": "Tricep",
+    "description": "This is the tricep description",
+    "parent": null
+  }
+]

@@ -182,6 +182,15 @@
         "parent": null
       }
     ],
-    "loaded": "LOADED"
+    "loaded": "LOADED",
+    "state": {
+      "appstate": "",
+      "primId": -1,
+      "primObj": "",
+      "primName": "",
+      "secId": "",
+      "secName": "",
+      "secObj": ""
+    }
   }
 }

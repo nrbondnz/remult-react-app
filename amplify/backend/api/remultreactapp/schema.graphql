@@ -1,0 +1,40 @@
+# This "input" configures a global authorization rule to enable public access to
+# all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
+input AMPLIFY { globalAuthRule: AuthRule = { allow: public } } # FOR TESTING ONLY!
+
+type Task @Entity('muscles', {
+              allowApiCrud: true,
+          })
+          export class Muscle {
+              @Fields.cuid()
+              id = ''
+
+              @Fields.string()
+              title = ''
+
+              @Fields.number()
+              parent = -1
+
+              @Fields.boolean()
+              completed = false
+
+              @Fields.createdAt()
+              createdAt?: Date
+          }
+
+type Task @Entity('tasks', {
+              allowApiCrud: true,
+          })
+          export class Task {
+              @Fields.cuid()
+              id = ''
+
+              @Fields.string()
+              title = ''
+
+              @Fields.boolean()
+              completed = false
+
+              @Fields.createdAt()
+              createdAt?: Date
+          }

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/task/{id}": {
+      "name": "/task/{id}",
+      "lambdaFunction": "remultreactapp7e43ba1e",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

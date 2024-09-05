@@ -6,7 +6,7 @@ import { Entity, Fields } from 'remult';
     allowApiCrud: true,
 })
 export class Muscle {
-    @Fields.autoIncrement()
+    @Fields.integer()
     id = 0;
 
     @Fields.string()

@@ -1,18 +1,57 @@
 {
+  "api": {
+    "remultreactapp": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    },
+    "remultresource": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "remultreactapp7e43ba1e"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "remultreactapp7e43ba1e": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "parameters": {
-    "AMPLIFY_function_remultreactapp05d5b60b_deploymentBucketName": {
+    "AMPLIFY_function_remultreactapp7e43ba1e_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "remultreactapp05d5b60b"
+          "resourceName": "remultreactapp7e43ba1e"
         }
       ]
     },
-    "AMPLIFY_function_remultreactapp05d5b60b_s3Key": {
+    "AMPLIFY_function_remultreactapp7e43ba1e_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "remultreactapp05d5b60b"
+          "resourceName": "remultreactapp7e43ba1e"
         }
       ]
     }
