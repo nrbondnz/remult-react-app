@@ -16,7 +16,8 @@
         "remultreactapp7e43ba1e": {
           "deploymentBucketName": "amplify-remultreactapp-dev-be902-deployment",
           "s3Key": "amplify-builds/remultreactapp7e43ba1e-79764e726c5955755336-build.zip"
-        }
+        },
+        "UsersLambda": {}
       },
       "api": {
         "remultresource": {}

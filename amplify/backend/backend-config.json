@@ -25,6 +25,14 @@
           ],
           "category": "function",
           "resourceName": "remultreactapp7e43ba1e"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "UsersLambda"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -32,6 +40,11 @@
     }
   },
   "function": {
+    "UsersLambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
     "remultreactapp7e43ba1e": {
       "build": true,
       "providerPlugin": "awscloudformation",
