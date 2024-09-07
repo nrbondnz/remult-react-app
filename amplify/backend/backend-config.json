@@ -37,23 +37,5 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
-  },
-  "parameters": {
-    "AMPLIFY_function_remultreactapp7e43ba1e_deploymentBucketName": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "remultreactapp7e43ba1e"
-        }
-      ]
-    },
-    "AMPLIFY_function_remultreactapp7e43ba1e_s3Key": {
-      "usedBy": [
-        {
-          "category": "function",
-          "resourceName": "remultreactapp7e43ba1e"
-        }
-      ]
-    }
   }
 }

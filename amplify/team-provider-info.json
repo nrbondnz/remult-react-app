@@ -1,25 +1,19 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-remultreactapp-dev-be902-authRole",
-      "UnauthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-be902-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-be902-authRole",
+      "AuthRoleName": "amplify-remultreactapp-dev-b6b80-authRole",
+      "UnauthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-b6b80-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::905407435387:role/amplify-remultreactapp-dev-b6b80-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-remultreactapp-dev-be902-deployment",
-      "UnauthRoleName": "amplify-remultreactapp-dev-be902-unauthRole",
-      "StackName": "amplify-remultreactapp-dev-be902",
-      "StackId": "arn:aws:cloudformation:us-east-1:905407435387:stack/amplify-remultreactapp-dev-be902/65dc38c0-6ab9-11ef-9718-0ecda44baab1",
-      "AmplifyAppId": "d2fbngoq4fzksz"
+      "DeploymentBucketName": "amplify-remultreactapp-dev-b6b80-deployment",
+      "UnauthRoleName": "amplify-remultreactapp-dev-b6b80-unauthRole",
+      "StackName": "amplify-remultreactapp-dev-b6b80",
+      "StackId": "arn:aws:cloudformation:us-east-1:905407435387:stack/amplify-remultreactapp-dev-b6b80/21ac6290-6d0e-11ef-a669-0affd4b5c4bd",
+      "AmplifyAppId": "d2831p8rnd2t3z"
     },
     "categories": {
       "function": {
-        "remultreactapp7e43ba1e": {
-          "deploymentBucketName": "amplify-remultreactapp-dev-be902-deployment",
-          "s3Key": "amplify-builds/remultreactapp7e43ba1e-79764e726c5955755336-build.zip"
-        }
-      },
-      "api": {
-        "remultresource": {}
+        "remultreactapp7e43ba1e": {}
       }
     }
   }
