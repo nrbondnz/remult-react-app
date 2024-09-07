@@ -1,7 +1,7 @@
 ﻿// src/shared/TasksController.ts
 
 import { BackendMethod, remult } from 'remult'
-import { Task } from './model/Task.ts'
+import { Task } from './model/Task'
 
 export class TasksController {
     @BackendMethod({ allowed: true })
